@@ -15,37 +15,33 @@
     * {
       font-family: 'Kumbh Sans';
     }
-
     :root {
       --dark-grey: hsl(0, 0%, 59%);
       --grayish-blue: hsl(227, 10%, 46%);
       --dark-cyan: hsl(185, 75%, 39%);
     }
-
     body {
       background: var(--dark-cyan);
       height: 100vh;
-      /* display: flex;
-      align-content: center;
+      display: flex;
+      align-items: center;
       justify-content: center;
-      align-items: center; */
+      margin: 0;
     }
-
     h2 {
       font-size: 18px;
       font-weight: 700;
       margin-bottom: 5px;
       color: #3e3e3e;
     }
-
     h2 span {
-      color: #ccc;
+      margin-left: 5px;
       font-weight: 400;
       color: var(--dark-grey);
     }
-
     .card {
       max-width: 350px;
+      width: 350px;
       margin: 0 auto;
       border-radius: 10px;
       background: #fff;
@@ -55,7 +51,6 @@
       justify-content: center;
       flex-direction: column;
     }
-
     .card .head {
       background: url("/images/bg-pattern-card.svg") no-repeat center;
       background-size: cover;
@@ -66,25 +61,23 @@
       display: flex;
       justify-content: center;
     }
-
     .card .head img {
       border-radius: 50%;
       border: 4px solid #fff;
-      top: 104px;
-      position: absolute;
+      top: 100px;
+      position: relative;
+      width: 100px;
+      height: 100px;
     }
-
     .card .body {
       margin: 70px 0 20px;
       text-align: center;
       width: 100%;
     }
-
     .card .body p {
       margin: 12px 0 15px;
       color: var(--dark-grey);;
     }
-
     .foot {
       background: #fff;
       border-top: 2px solid #efefef;
@@ -99,29 +92,24 @@
     .foot .counter {
       text-align: center;
     }
-
     .foot .counter p {
       font-weight: 700;
       margin-bottom: 5px;
       color: var(--greyish-blue);
-
     }
     .foot .counter small {
       color: var(--dark-grey);
     }
-
-
     .attribution {
       font-size: 11px;
       text-align: center;
       position: absolute;
       bottom: 0;
       text-align: center;
+      color: #fff;
     }
-    .attribution a { color: hsl(228, 45%, 44%); }
-
-    @media screen and (min-width: 769px) {
-
+    .attribution a {
+      color: hsl(228, 45%, 44%);
     }
   </style>
 </head>
@@ -149,11 +137,9 @@
       </div>
     </div>
   </div>
-  
-  
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    Coded by <a href="https://www.agenciadkode.com.br">Thiago Vilasboas</a>.
   </div>
 </body>
 </html>
